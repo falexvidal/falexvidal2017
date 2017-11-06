@@ -4,7 +4,7 @@
               <div class="row module">
                   <div class="col-md-8 col-sm-12 pb-5 wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.2s">
                       <h2 class="mt-5">Contact</h2>
-                      <p class="mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      <p class="mt-5 mb-5">Let's talk! I'm available to discuss projects, partnerships, freelance work and job proposals. Or maybe if you just want to grab a coffee, let me know! Use the form below and make some noise.</p>
                       <form>
                         <?php echo do_shortcode( '[ninja_form id=1]' ); ?>
                       </form>

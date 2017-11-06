@@ -23,7 +23,7 @@
               <div class="row">
                   <div class="col-12 text-center">
                       <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#brandModal">
-                          <span class="oi oi-caret-right"></span> Play Reel</button>
+                          <span class="oi oi-caret-right"></span> Play Video Reel</button>
                   </div>
               </div>
           </div>
