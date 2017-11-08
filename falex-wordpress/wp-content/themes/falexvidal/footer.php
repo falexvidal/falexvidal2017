@@ -2,10 +2,10 @@
       <section class="pb-5 module" id="footer">
           <div class="container">
               <div class="row pb-3">
-                  <div class="col-md-6 col-sm-12 wow slideInDown">
+                  <div class="bgf col-lg-6 col-md-12 wow text-center slideInDown">
                       <img src="<?php echo get_bloginfo('template_url') ?>/images/footer.jpg">
                   </div>
-                  <div class="col-md-6 col-sm-12 text-center pt-5 mt-3 module">
+                  <div class="bgd col-lg-6 col-md-12 text-center pt-5 mt-3 module">
                       <h1>Falex</h1>
                       <span>Interaction Designer</span>
                       <div class="logos text-center">

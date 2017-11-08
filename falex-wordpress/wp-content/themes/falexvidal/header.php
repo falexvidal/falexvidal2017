@@ -3,7 +3,7 @@
   <head>
     <title>Falex</title>
       <meta charset="<?php bloginfo( 'charset' ); ?>" />
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <script src="<?php echo get_bloginfo( 'template_directory' );?>/wow-master/dist/wow.min.js"></script>
       <script>
         new WOW().init();
