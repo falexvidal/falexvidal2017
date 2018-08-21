@@ -9,9 +9,11 @@
                       <h1>Falex</h1>
                       <span>Digital Designer</span>
                       <div class="logos text-center">
-                          <a href="https://www.linkedin.com/in/falex/" target="_blank"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo-linkedin.png"></a>
+                          <!--<a href="https://www.linkedin.com/in/falex/" target="_blank"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo-linkedin.png"></a>
                           <a href="https://www.behance.net/falexvidal" target="_blank"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo-behance.png"></a>
-                          <a href="https://www.youtube.com/channel/UCU5OF1LVHvy4nCQsFfxV5zg?view_as=subscriber" target="_blank"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo-youtube.png"></a>
+                          <a href="https://www.youtube.com/channel/UCU5OF1LVHvy4nCQsFfxV5zg?view_as=subscriber" target="_blank"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo-youtube.png"></a>-->
+                            <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('widgetized-area')) : else : ?>
+	                   <?php endif; ?>
                       </div>
                       <p class="copyright">&copy; Copyright 2017. All Rights Reserved.</p>
                   </div>
