@@ -7,7 +7,7 @@
                   </div>
                   <div class="bgd col-lg-6 col-md-12 text-center pt-5 mt-3 module">
                       <h1>Falex</h1>
-                      <span>Interaction Designer</span>
+                      <span>Digital Designer</span>
                       <div class="logos text-center">
                           <a href="https://www.linkedin.com/in/falex/" target="_blank"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo-linkedin.png"></a>
                           <a href="https://www.behance.net/falexvidal" target="_blank"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo-behance.png"></a>
