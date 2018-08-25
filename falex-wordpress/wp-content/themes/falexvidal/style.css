@@ -22,7 +22,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
 
@@ -43,6 +44,11 @@ nav a {
 
 nav a:hover {
     color:#92cae0;
+}
+
+.nav-pages img {
+    width: 40%;
+    height: auto;
 }
 
 #brand {
@@ -93,7 +99,9 @@ p {
 }
 
 h2 {
-    font-family: 'Alfa Slab One', cursive;
+    /*font-family: 'Alfa Slab One', cursive;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
     font-size: 3em;
     text-transform: uppercase;
 }
@@ -275,4 +283,35 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.cover {
+    width: 100%;
+    height: 800px;
+}
+
+.header-portfolio h2 {
+    display: block !important;
+    text-transform: none;
+    font-weight: 900;
+    width: 100%;
+    color:#000;
+}
+
+p.lead + p {
+    display: block;
+    width:100%;
+    color:#000;
+    /*background:#000;*/
+}
+
+.caption {
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+    color:#fff;
+    height: 400px;
+    font-size:5.5em;
+    font-weight: 200;
+    background-attachment: fixed;
 }
