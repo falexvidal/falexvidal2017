@@ -305,13 +305,18 @@ p.lead + p {
     /*background:#000;*/
 }
 
+.social-share {
+    text-align: left;
+}
+
 .caption {
     width: 100%;
-    text-align: center;
-    margin:0 auto;
-    color:#fff;
-    height: 400px;
-    font-size:5.5em;
+    /*text-align: center;*/
+    /*margin:0 auto;*/
+    /*color:#fff;*/
+    color:#000;
+    height: auto;
+    font-size:4em;
     font-weight: 200;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
