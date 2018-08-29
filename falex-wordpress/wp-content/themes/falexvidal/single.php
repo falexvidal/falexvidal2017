@@ -25,7 +25,7 @@
         
         <div class="container">
             <div class="row mt-5 mb-3">
-                <div class="col-md-2">
+                <div class="col-md-2 specs">
                     <h4>Client:</h4>
                     <p><?php the_field('client'); ?></p>
 
@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-md-1">
                 </div>
-                <div class="col-md-7 wow fadeIn">
+                <div class="col-md-7 wow fadeIn content">
                     <?php the_content(); ?>
                 </div>
                 <div class="col-md-2"></div>
@@ -65,6 +65,7 @@
                 </div>
             </div>
         </div>
+
         <?php endwhile; endif; ?>
 
 <?php get_footer(); ?>

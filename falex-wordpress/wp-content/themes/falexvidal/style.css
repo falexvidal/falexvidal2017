@@ -307,6 +307,7 @@ p.lead + p {
 
 .social-share {
     text-align: left;
+    margin:0;
 }
 
 .caption {
@@ -319,4 +320,9 @@ p.lead + p {
     font-size:4em;
     font-weight: 200;
     /*background-attachment: fixed;*/
+}
+
+.test {
+    display: block;
+    min-height: 400px;
 }
